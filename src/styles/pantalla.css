@@ -1,0 +1,17 @@
+.pantalla{
+    height: 80px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: #fefefe86;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 280px){
+    .pantalla{
+        width: 200px;
+    }
+}

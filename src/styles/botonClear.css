@@ -1,0 +1,14 @@
+.botonClear{
+    cursor: pointer;
+    padding: 15px 80px;
+    border-radius: 20px;
+    background-color: #a70dee;
+    color: #fff;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 410px){
+    .botonClear{
+        width: 200px;
+    }
+}

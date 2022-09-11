@@ -1,0 +1,23 @@
+.botones-calculadora{
+    height: 80px;
+    width: 80px;
+    font-size: 22px;
+    border-radius: 15px;
+    font-family: sans-serif;
+    background-color:#5433FF;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.botones-calculadora:hover{
+    background-color: #24FE41;
+    box-shadow: 0 0 40px #24FE41, 0 0 380px #24FE41, ;
+}
+
+@media screen and (max-width: 410px){
+    .botones-calculadora{
+        width: 100%;
+    }
+}
